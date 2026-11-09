@@ -1,108 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Discover exceptional homes, apartments, villas and land in Sri Lanka with Saffron Properties lk. Buy, rent or Sale your property.">
-  <meta name="theme-color" content="#171713">
-  <title>Saffron Properties lk | Exceptional Property consultancy in Sri Lanka</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="topbar"><div class="container topbar-inner"><span>Exceptional properties. Thoughtful service.</span><a href="#contact">Speak to our team <span aria-hidden="true">↗</span></a></div></div>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#" aria-label="Saffron Properties home"><span class="brand-mark">S</span><span class="brand-name">SAFFRON <small>PROPERTIES</small></span></a>
-      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
-      <nav class="main-nav">
-        <a href="#home">Home</a><a href="#properties">Properties</a><a href="#services">Our services</a><a href="#about">About</a><a href="#contact">Contact</a>
-        <a class="nav-cta" href="#list-property">List your property</a>
-      </nav>
-    </div>
-  </header>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saffron Properties LK</title>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-image"></div>
-      <div class="container hero-content">
-        <p class="eyebrow light">SAFFRON PROPERTIES · SRI LANKA</p>
-        <h1>Find a place<br>to <em>belong.</em></h1>
-        <p class="hero-copy">A considered collection of homes, land and investment opportunities across Sri Lanka.</p>
-        <a class="button button-gold" href="#properties">Explore properties <span>↗</span></a>
-      </div>
-      <div class="hero-note">A better way to find your next address.</div>
-    </section>
+<meta name="description" content="Saffron Properties LK - The Solution For Luxury Property Search. Buy, Sell and Rent Properties Islandwide.">
 
-    <section class="search-band">
-      <div class="container search-panel">
-        <div><label for="purpose">I'm looking to</label><select id="purpose"><option value="all">Buy or rent</option><option value="Sale">Buy</option><option value="Rent">Rent</option></select></div>
-        <div><label for="type">Property type</label><select id="type"><option value="all">All properties</option><option>House</option><option>Apartment</option><option>Villa</option><option>Land</option><option>Commercial</option></select></div>
-        <div><label for="location">Location</label><input id="location" type="text" placeholder="e.g. Colombo"></div>
-        <button class="button button-dark" id="searchBtn">Search properties</button>
-      </div>
-    </section>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-    <section class="section container" id="properties">
-      <div class="section-heading">
-        <div><p class="eyebrow">A PLACE FOR EVERY CHAPTER</p><h2>Featured properties</h2></div>
-        <p class="section-intro">Explore a selection of property opportunities. Contact us for verified details, availability and viewings.</p>
-      </div>
-      <div class="property-grid" id="propertyGrid">
-        <article class="property-card" data-purpose="Sale" data-type="House" data-location="Colombo">
-          <div class="property-photo photo-one"><span class="property-tag">For sale</span><span class="photo-caption">Illustrative image</span></div>
-          <div class="property-info"><p class="property-location">COLOMBO · WESTERN PROVINCE</p><h3>Contemporary family residence</h3><p class="property-meta">4 bedrooms · 3 bathrooms · House</p><div class="property-bottom"><span class="price">Price on request</span><a href="#contact" class="text-link">Enquire ↗</a></div></div>
-        </article>
-        <article class="property-card" data-purpose="Rent" data-type="Apartment" data-location="Colombo">
-          <div class="property-photo photo-two"><span class="property-tag">For rent</span><span class="photo-caption">Illustrative image</span></div>
-          <div class="property-info"><p class="property-location">COLOMBO · WESTERN PROVINCE</p><h3>City-view apartment</h3><p class="property-meta">2 bedrooms · 2 bathrooms · Apartment</p><div class="property-bottom"><span class="price">Rent on request</span><a href="#contact" class="text-link">Enquire ↗</a></div></div>
-        </article>
-        <article class="property-card" data-purpose="Sale" data-type="Land" data-location="Galle">
-          <div class="property-photo photo-three"><span class="property-tag">For sale</span><span class="photo-caption">Illustrative image</span></div>
-          <div class="property-info"><p class="property-location">GALLE · SOUTHERN PROVINCE</p><h3>Southern coastal land</h3><p class="property-meta">Land · Exact extent on request</p><div class="property-bottom"><span class="price">Price on request</span><a href="#contact" class="text-link">Enquire ↗</a></div></div>
-        </article>
-      </div>
-      <p class="demo-note" id="noResults" hidden>No sample listings match your search. Please try another filter or contact our team.</Whatsapp 0771804834>
-      <p class="demo-note">Demo listings are design examples, not confirmed properties. Replace these with your actual listings before advertising.</p>
-    </section>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:1.6;
+    color:#333;
+}
 
-    <section class="services-section" id="services">
-      <div class="container services-layout">
-        <div><p class="eyebrow light">HOW WE CAN HELP</p><h2>Property decisions,<br><em>made clearer.</em></h2><p class="services-copy">Whether you're searching for a home, exploring an investment or preparing to sell, our team is here to help you take the next step with confidence.</p></div>
-        <div class="service-list">
-          <div class="service-item"><span>01</span><div><h3>Buy a property</h3><p>Discover homes, land and investment opportunities.</p></div><a href="#contact">↗</a></div>
-          <div class="service-item"><span>02</span><div><h3>Rent a property</h3><p>Find a place that fits your lifestyle and plans.</p></div><a href="#contact">↗</a></div>
-          <div class="service-item"><span>03</span><div><h3>Sell or list your property</h3><p>Introduce your property to prospective buyers and tenants.</p></div><a href="#list-property">↗</a></div>
-          <div class="service-item"><span>04</span><div><h3>Property guidance</h3><p>Talk through your requirements with our team.</p></div><a href="#contact">↗</a></div>
-        </div>
-      </div>
-    </section>
+header{
+    background:#000;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}
 
-    <section class="about-section container" id="about">
-      <div class="about-image" role="img" aria-label="Modern tropical residence surrounded by greenery"></div>
-      <div class="about-copy"><p class="eyebrow">THE SAFFRON APPROACH</p><h2>Good property choices begin with <em>good people.</em></h2><p>Saffron Properties connects people with property opportunities across Sri Lanka. We believe the process should feel personal, clear and considered — from the first conversation to the next step.</p><a class="text-link" href="#contact">Get to know us ↗</a></div>
-    </section>
+.logo{
+    max-width:220px;
+    height:auto;
+}
 
-    <section class="list-section" id="list-property">
-      <div class="container list-inner"><div><p class="eyebrow light">HAVE A PROPERTY TO SELL OR RENT?</p><h2>Your property deserves<br><em>the right introduction.</em></h2><p>Tell us a little about your property and our team can discuss the next steps with you.</p></div><a class="button button-gold" href="#contact">List your property ↗</a></div>
-    </section>
+.hero{
+    background:url('cover-image.png') center center/cover no-repeat;
+    min-height:550px;
+    display:flex;
+    align-items:center;
+    color:white;
+    position:relative;
+}
 
-    <section class="contact-section container" id="contact">
-      <div class="contact-heading"><p class="eyebrow">LET'S START A CONVERSATION</p><h2>What are you<br><em>looking for?</em></h2><p>Share your requirements and we'll help you explore the possibilities.</p><div class="contact-details"><p><span>Email</span><a href="mailto:hello@saffronproperties.lk">hello@saffronproperties.lk</a></p><p><span>Website</span><a href="https://saffronproperties.lk">saffronproperties.lk</a></p><p><span>Location</span>Sri Lanka</p></div></div>
-      <form class="contact-form" id="contactForm">
-        <label>Your name<input name="name" required placeholder="Full name"></label>
-        <label>Email or phone<input name="contact" required placeholder="How can we reach you?"></label>
-        <label>I'm interested in<select name="interest"><option>Buying a property</option><option>Renting a property</option><option>Selling or renting out my property</option><option>General enquiry</option></select></label>
-        <label>Message<textarea name="message" rows="4" placeholder="Tell us what you're looking for..."></textarea></label>
-        <button class="button button-dark" type="submit">Prepare enquiry ↗</button>
-        <p class="form-note">This demo form opens an email draft in your email app. Add your real business email before launch.</p>
-      </form>
-    </section>
-  </main>
+.hero::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.55);
+}
 
-  <footer class="footer"><div class="container footer-inner"><a class="brand brand-footer" href="#"><span class="brand-mark">S</span><span class="brand-name">SAFFRON <small>PROPERTIES</small></span></a><p>Thoughtful property connections across Sri Lanka.</p><span>© <span id="year"></span> Saffron Properties</span></div></footer>
-  <script src="script.js"></script>
-</body>
-</html>
+.hero-content{
+    position:relative;
+    z-index:2;
+    max-width:700px;
+    padding:40px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:15px;
+}
+
+.btn{
+    display:inline-block;
+    background:#c9a227;
+    color:#000;
+    padding:12px 25px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    margin-top:10px;
+}
+
+.section{
+    padding:60px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.section h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#f5f5f5;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.whatsapp{
+    background:#25D366;
+    color:white;
+}
+
+.facebook{
+    background:#1877F
